@@ -3,7 +3,7 @@ import React from 'react';
 export const TestComponent = () => (
   <div className="flex">
     <div className="flex-none w-48 relative">
-      <img src="/classic-utility-jacket.jpg" alt="" className="absolute inset-0 w-full h-full object-cover" />
+      <img src="https://www.engelhorn.de/dw/image/v2/AALR_PRD/on/demandware.static/-/Sites-engelhorn-master-plattform/default/dw74785eac/images/P10/05/26/2B/V1068976L/engelhorn-Wellensteyn-Herren-Jacke-Marvellous-Vorderansicht-V1068976L-v1.jpg?sw=680" alt="" className="absolute inset-0 w-full h-full object-cover" />
     </div>
     <form className="flex-auto p-6">
       <div className="flex flex-wrap">
@@ -49,7 +49,7 @@ export const TestComponent = () => (
         </div>
         <button className="flex-none flex items-center justify-center w-9 h-9 rounded-md text-gray-400 border border-gray-300" type="button" aria-label="like">
           <svg width="20" height="20" fill="currentColor">
-            <path fillRule="evenodd" clip-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" />
+            <path fillRule="evenodd" clipRule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" />
           </svg>
         </button>
       </div>
