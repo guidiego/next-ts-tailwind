@@ -14,6 +14,30 @@ const Template: ComponentStory<typeof TestComponent> = (args) => (
   <TestComponent {...args} />
 );
 
-export const Primary = Template.bind({});
+export const Default = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
-Primary.args = {};
+Default.args = {
+  children: "Test Default",
+};
+
+export const NoPadding = Template.bind({});
+// More on args: https://storybook.js.org/docs/react/writing-stories/args
+NoPadding.args = {
+  children: "Test No Padding",
+  noPadding: true,
+};
+
+export const Rounded = Template.bind({});
+// More on args: https://storybook.js.org/docs/react/writing-stories/args
+Rounded.args = {
+  children: "Test Rounded",
+  rounded: true,
+};
+
+export const WithAllSettings = Template.bind({});
+// More on args: https://storybook.js.org/docs/react/writing-stories/args
+WithAllSettings.args = {
+  children: "Test With All Settings",
+  rounded: true,
+  className: "bg-green-500",
+};
