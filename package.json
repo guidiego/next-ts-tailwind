@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint './src' './test'",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build:storybook": "build-storybook",
+    "serve:coverage": "http-server ./coverage"
   },
   "husky": {
     "hooks": {
@@ -53,6 +54,8 @@
     "eslint-config-next": "^11.1.3",
     "eslint-config-prettier": "^7.1.0",
     "eslint-plugin-prettier": "^3.3.0",
+    "http-server": "^14.0.0",
+    "identity-obj-proxy": "^3.0.0",
     "jest": "^27.4.5",
     "lint-staged": "^10.5.3",
     "postcss-flexbugs-fixes": "^5.0.2",
